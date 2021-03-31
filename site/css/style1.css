@@ -1,0 +1,49 @@
+#calculadora table {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: rgb(57, 59, 59); 
+    border: 0 double black;
+    font-size: 10px;
+  }
+  #tela{
+    height:20px ;
+    width: 10px;
+  }
+  #calculadora tr {
+    width: 100%;
+    height:100%;
+    border-radius: 3px;
+  }
+  
+  #calculadora tr td input {
+    width: 95%;
+    height:30px;
+  }
+  
+  #calculadora td input:hover {
+    color: #fff;
+    background-color: #546E7A;
+  }
+  
+  #calculadora td input#tela {
+    text-align: right;
+  }
+  
+  #calculadora td input#tela:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  #apagarAnterior{
+  background-color:#DEF018;
+  }
+  #limparTela{
+    background-color:#DEF018; 
+  }
+  #divisao,
+  #multiplicacao,
+  #subtracao,
+  #soma
+  {
+    background-color: #F8BA34;
+  }
